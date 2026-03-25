@@ -24,13 +24,13 @@ const invites = {
   "yves": { nom: "Cher couple Yves KAYEMBE" },
   "africa": { nom: "Cher couple Africa TSATSA" },
   "jeannoel": { nom: "Cher Monsieur Jean Noel MATUMO" },
-  "fanny": { nom: "Cher Madame Fanny NGALULA" },
-  "grady": { nom: "Cher madame Grady LULUA" },
+  "fanny": { nom: "Chère Madame Fanny NGALULA" },
+  "grady": { nom: "Chère madame Grady LULUA" },
   "ismael": { nom: "Cher Monsieur Ismael TSHIBANDA" },
   "donat": { nom: "Cher couple Donat KALALA" },
   "serge": { nom: "Cher couple Honorable Serge Beya" },
   "donat": { nom: "Cher couple Donat KALALA" },
-  "francine": { nom: "Cher madame Francine BOPE" },
+  "francine": { nom: "Chère madame Francine BOPE" },
   "papastephane": { nom: "Cher couple Stéphane TSHIBINKUFUA" },
   "jules": { nom: "Cher couple Jules MUTSHIBELE" },
   "prisca": { nom: "Chère Madame Prisca EKWE" },
@@ -62,7 +62,7 @@ const invites = {
   "jonathan": { nom: "Cher Monsieur Jonathan MUKENDI" },
   "grace": { nom: "Chère couple Emmanuel KENOMBE" },
   "chadrack": { nom: "Cher Monsieur Chadrack IBANDA" },
-  "reagan": { nom: "Cher Monsieur Reagan MPANGU" },
+  "reagan": { nom: "Cher Couple Reagan MPANGU" },
   "Aris": { nom: "Cher Monsieur Aristote NZALE" },
   "dieudonne": { nom: "Cher Monsieur Dieudonné ELAMENJI" },
   "johnny": { nom: "Cher Monsieur Johnny KABUAMBA" },
@@ -82,7 +82,7 @@ const invites = {
   "violette": { nom: "Chère Madame Violette" },
   "bv": { nom: "Cher Monsieur Bienvenu MASUDI" },
   "gaylord": { nom: "Cher Monsieur Gaylord MUSANGU" },
-  "magloire": { nom: "Cher madame Ma Gloire NSASI" },
+  "magloire": { nom: "Chère madame Ma Gloire NSASI" },
   "beni": { nom: "Cher Monsieur Béni BULATA" },
   "eugene": { nom: "Cher Monsieur BUNGISA" },
   "chirac": { nom: "Cher Monsieur Chirac LUTANDILA" },
@@ -97,7 +97,7 @@ const invites = {
   "jackel": { nom: "Mrs Jackel et Davina" },
   "corneille": { nom: "Cher Monsieur Coreneille TSHIBAMBA" },
   "gustave": { nom: "Cher Monsieur Gustave" },
-  "famillekabuya": { nom: "Famille Jean Kabuya" }
+  "deo": { nom: "Monsieur Déogratias KAYONI" }
 };
 
 // 🔑 INVITÉ COURANT & ADMIN
