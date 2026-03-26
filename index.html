@@ -102,7 +102,8 @@ th {
 
   <!-- Invitation -->
   <div class="invitation" id="invitation-pdf">
-    <img src="./jeff-milca.jpeg" alt="Jeff & Milca">
+
+    <img src="jeff-milca.jpeg" alt="Photo des mariés">
 
     <div class="title">INVITATION</div><br>
 
@@ -118,14 +119,15 @@ th {
       ref : Agence CAA, à côté de SOZACOM
     </div>
 
-    <button class="btn download" onclick="downloadImage()">Télécharger</button>
+    <button type="button" class="btn download" onclick="downloadImage()">Télécharger</button>
 
-    <!-- RSVP pour invité uniquement -->
+    <!-- RSVP -->
     <div class="section">
+
       <h3>Confirmation</h3>
       <div class="choices">
-        <button class="btn presence-btn" onclick="setPresence(event,'Présent')">Présent</button>
-        <button class="btn presence-btn" onclick="setPresence(event,'Absent')">Absent</button>
+        <button type="button" class="btn presence-btn" onclick="setPresence(event,'Présent')">Présent</button>
+        <button type="button" class="btn presence-btn" onclick="setPresence(event,'Absent')">Absent</button>
       </div>
 
       <h3>Choix de boissons</h3>
@@ -133,34 +135,36 @@ th {
 
       <h4>🥤 Non alcoolisées</h4>
       <div class="choices">
-        <button class="btn drink-btn" onclick="setBoisson(event,'Coca')">Coca</button>
-        <button class="btn drink-btn" onclick="setBoisson(event,'XXL')">XXL</button>
-        <button class="btn drink-btn" onclick="setBoisson(event,'EnergyMalt')">EnergyMalt</button>
-        <button class="btn drink-btn" onclick="setBoisson(event,'Fanta')">Fanta</button>
-        <button class="btn drink-btn" onclick="setBoisson(event,'Maltina')">Maltina</button>
-        <button class="btn drink-btn" onclick="setBoisson(event,'Sprite')">Sprite</button>
-        <button class="btn drink-btn" onclick="setBoisson(event,'Vitalo')">Vitalo</button>
-        <button class="btn drink-btn" onclick="setBoisson(event,'Bavaria')">Bavaria</button>
+        <button type="button" class="btn drink-btn" onclick="setBoisson(event,'Coca')">Coca</button>
+        <button type="button" class="btn drink-btn" onclick="setBoisson(event,'XXL')">XXL</button>
+        <button type="button" class="btn drink-btn" onclick="setBoisson(event,'EnergyMalt')">EnergyMalt</button>
+        <button type="button" class="btn drink-btn" onclick="setBoisson(event,'Fanta')">Fanta</button>
+        <button type="button" class="btn drink-btn" onclick="setBoisson(event,'Maltina')">Maltina</button>
+        <button type="button" class="btn drink-btn" onclick="setBoisson(event,'Sprite')">Sprite</button>
+        <button type="button" class="btn drink-btn" onclick="setBoisson(event,'Vitalo')">Vitalo</button>
+        <button type="button" class="btn drink-btn" onclick="setBoisson(event,'Bavaria')">Bavaria</button>
       </div>
 
       <h4>🍺 Alcoolisées</h4>
       <div class="choices">
-        <button class="btn drink-btn" onclick="setBoisson(event,'Heineken')">Heineken</button>
-        <button class="btn drink-btn" onclick="setBoisson(event,'Castel')">Castel</button>
-        <button class="btn drink-btn" onclick="setBoisson(event,'Tembo')">Tembo</button>
-        <button class="btn drink-btn" onclick="setBoisson(event,'Beaufort')">Beaufort</button>
-        <button class="btn drink-btn" onclick="setBoisson(event,'Nkoyi')">Nkoyi</button>
+        <button type="button" class="btn drink-btn" onclick="setBoisson(event,'Heineken')">Heineken</button>
+        <button type="button" class="btn drink-btn" onclick="setBoisson(event,'Castel')">Castel</button>
+        <button type="button" class="btn drink-btn" onclick="setBoisson(event,'Tembo')">Tembo</button>
+        <button type="button" class="btn drink-btn" onclick="setBoisson(event,'Beaufort')">Beaufort</button>
+        <button type="button" class="btn drink-btn" onclick="setBoisson(event,'Nkoyi')">Nkoyi</button>
       </div>
 
       <br>
-      <button class="btn submit" onclick="envoyerRSVP()">Valider</button>
+      <button type="button" class="btn submit" onclick="envoyerRSVP()">Valider</button>
+
     </div>
   </div>
 
-  <!-- Admin Panel -->
+  <!-- ADMIN -->
   <div id="adminPanel" style="display:none; margin-top:30px;">
     <h3>Réponses des invités</h3>
-    <button id="exportExcel">Exporter Excel</button>
+    <button type="button" id="exportExcel">Exporter Excel</button>
+
     <table>
       <thead>
         <tr>
@@ -176,7 +180,9 @@ th {
 
 </div>
 
-<button id="resetTable" style="background:red;color:white;margin-top:10px;">Réinitialiser la table</button>
+<button type="button" id="resetTable" style="background:red;color:white;margin-top:10px;">
+  Réinitialiser la table
+</button>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
 <script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-app-compat.js"></script>
@@ -185,5 +191,6 @@ th {
 
 <script src="data.js"></script>
 <script src="script.js"></script>
+
 </body>
 </html>
