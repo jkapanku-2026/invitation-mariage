@@ -73,7 +73,7 @@ const invites = {
   "papaalain": { nom: "couple Alain MOBUTU" },
   "ntanya": { nom: "Chère madame Ntanya" },
   "deborah": { nom: "Chère Deborah Delya" },
-  "deborah2": { nom: "Cher couple Deborah MBOMBO" },
+  "deo": { nom: "Cher Monsieur Deogratias KAYONI" },
   "lisa": { nom: "Chère Lisa MUBASAO" },
   "merline": { nom: "Chère Da Merline et Promedie" },
   "christian": { nom: "Cher Monsieur Christian BEYA " },
