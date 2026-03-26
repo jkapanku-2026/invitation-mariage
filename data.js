@@ -98,7 +98,7 @@ const invites = {
   "jackel": { nom: "Mrs Jackel et Davina" },
   "corneille": { nom: "Cher Monsieur Coreneille TSHIBAMBA" },
   "gustave": { nom: "Cher Monsieur Gustave" },
-  "famillekabuya": { nom: "Famille Jean Kabuya" }
+  "tantinevero": { nom: "Cher couple verro NTUMBA" }
 };
 
 // 🔑 INVITÉ COURANT & ADMIN
