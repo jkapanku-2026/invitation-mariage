@@ -25,66 +25,106 @@ if(!ADMIN){
         const tbody = document.getElementById("table");
         tbody.innerHTML = "";
         window.excelData = [];
+
         for(let key in data){
             const d = data[key];
-            tbody.innerHTML += `<tr>
-                <td>${d.nom}</td>
-                <td>${d.presence}</td>
-                <td>${d.boissons}</td>
-                <td>${d.date}</td>
-            </tr>`;
-            window.excelData.push({Nom:d.nom, Présence:d.presence, Boissons:d.boissons, Date:d.date});
+            tbody.innerHTML += `
+                <tr>
+                    <td>${d.nom}</td>
+                    <td>${d.presence}</td>
+                    <td>${d.boissons}</td>
+                    <td>${d.date}</td>
+                </tr>
+            `;
+            window.excelData.push({
+                Nom: d.nom,
+                Présence: d.presence,
+                Boissons: d.boissons,
+                Date: d.date
+            });
         }
     });
 }
 
-// Fonctions RSVP
-function setPresence(e,val){
+// ✅ PRESENCE
+function setPresence(e, val){
     presenceChoisie = val;
-    document.querySelectorAll(".presence-btn").forEach(btn=>btn.classList.remove("active"));
+    document.querySelectorAll(".presence-btn").forEach(btn => btn.classList.remove("active"));
     e.currentTarget.classList.add("active");
 }
-function setBoisson(e,val){
+
+// 🍹 BOISSON max 2
+function setBoisson(e, val){
     const btn = e.currentTarget;
+
     if(boissonsChoisie.includes(val)){
-        boissonsChoisie = boissonsChoisie.filter(b=>b!==val);
+        boissonsChoisie = boissonsChoisie.filter(b => b !== val);
         btn.classList.remove("active");
         return;
     }
-    if(boissonsChoisie.length>=2){
+
+    if(boissonsChoisie.length >= 2){
         alert("Maximum 2 boissons seulement");
         return;
     }
+
     boissonsChoisie.push(val);
     btn.classList.add("active");
 }
+
+// 📩 RSVP
 function envoyerRSVP(){
     if(!presenceChoisie) return alert("Choisir présence");
-    if(presenceChoisie==="Présent" && boissonsChoisie.length===0) return alert("Choisir boisson");
-    db.ref("rsvp/"+code).set({
+    if(presenceChoisie === "Présent" && boissonsChoisie.length === 0)
+        return alert("Choisir boisson");
+
+    db.ref("rsvp/" + code).set({
         nom: invites[code].nom,
         presence: presenceChoisie,
         boissons: boissonsChoisie.join(", "),
         date: new Date().toLocaleString()
     });
+
     alert("Réponse envoyée ✅");
 }
 
-// Télécharger invitation
+// 📸 TÉLÉCHARGER IMAGE (CARTE SEULEMENT)
 function downloadImage(){
     const element = document.getElementById("invitation-pdf");
-    html2canvas(element,{scale:2,useCORS:true,backgroundColor:"#ffffff"}).then(canvas=>{
+    const section = element.querySelector(".section"); // RSVP
+    const btnDownload = element.querySelector(".download"); // bouton
+
+    // cacher éléments inutiles
+    if(section) section.style.display = "none";
+    if(btnDownload) btnDownload.style.display = "none";
+
+    html2canvas(element,{
+        scale: 2,
+        useCORS: true,
+        backgroundColor: "#ffffff"
+    }).then(canvas=>{
         const link = document.createElement("a");
-        link.download="invitation.png";
-        link.href=canvas.toDataURL("image/png");
+        link.download = "invitation.png";
+        link.href = canvas.toDataURL("image/png");
+
+        document.body.appendChild(link);
         link.click();
-    }).catch(()=>alert("Erreur téléchargement"));
+        document.body.removeChild(link);
+
+        // remettre éléments
+        if(section) section.style.display = "block";
+        if(btnDownload) btnDownload.style.display = "block";
+
+    }).catch(err=>{
+        console.error(err);
+        alert("Erreur téléchargement");
+
+        if(section) section.style.display = "block";
+        if(btnDownload) btnDownload.style.display = "block";
+    });
 }
 
-
-
-
-// Export Excel
+// 📊 EXPORT EXCEL
 document.getElementById("exportExcel")?.addEventListener("click",()=>{
     const ws = XLSX.utils.json_to_sheet(window.excelData || []);
     const wb = XLSX.utils.book_new();
@@ -92,10 +132,11 @@ document.getElementById("exportExcel")?.addEventListener("click",()=>{
     XLSX.writeFile(wb, "RSVP.xlsx");
 });
 
+// 🔄 RESET TABLE
 document.getElementById("resetTable")?.addEventListener("click",()=>{
     if(confirm("Voulez-vous vraiment réinitialiser toutes les réponses ?")){
         db.ref("rsvp").remove()
           .then(()=> alert("Table réinitialisée ✅"))
-          .catch(err=> alert("Erreur: "+err));
+          .catch(err=> alert("Erreur: " + err));
     }
 });
