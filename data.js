@@ -30,7 +30,7 @@ const invites = {
   "donat": { nom: "Cher couple Donat KALALA" },
   "serge": { nom: "Cher couple Honorable Serge Beya" },
   "donat": { nom: "Cher couple Donat KALALA" },
-  "maxence": { nom: "Cher Couple Maxence MADI" },
+  "maxence": { nom: "Cher Couple Maxence MANDI" },
   "papastephane": { nom: "Cher couple Stéphane TSHIBINKUFUA" },
   "jules": { nom: "Cher couple Jules MUTSHIBELE" },
   "prisca": { nom: "Chère Madame Prisca EKWE" },
