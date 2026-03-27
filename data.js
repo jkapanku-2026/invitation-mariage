@@ -42,7 +42,7 @@ const invites = {
   "sandrine": { nom: "Cher Couple Sandrine BODO" },
   "josue": { nom: "Cher couple Josué PAKU" },
   "huguette": { nom: "Cher couple Huguette LEPELE" },
-  "nash": { nom: "Cher couple Nash F. MUTOKE" },
+  "nash": { nom: "Cher couple Nash F. MOTUKE" },
   "van": { nom: "Cher Couple Mr VAN DIEBO" },
   "emile": { nom: "Cher couple Emile YAV" },
   "bienvenu": { nom: "Cher Monsieur Bienvenu LUAMBUA" },
