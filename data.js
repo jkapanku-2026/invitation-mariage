@@ -25,7 +25,7 @@ const invites = {
   "africa": { nom: "Cher couple Africa TSATSA" },
   "scola": { nom: "Chère madame Scola LUMWANGA" },
   "christianbukasa": { nom: "Cher Monsieur Christian BUKASA" },
-  "sylvain": { nom: "Cher Monsieur Sylvain KALELE" },
+  "sylvaink": { nom: "Cher Monsieur Sylvain KALELE" },
   "ismael": { nom: "Cher Monsieur Ismael TSHIBANDA" },
   "donat": { nom: "Cher couple Donat KALALA" },
   "serge": { nom: "Cher couple Honorable Serge Beya" },
