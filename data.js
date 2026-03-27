@@ -80,6 +80,7 @@ const invites = {
   "samy": { nom: "Cher Monsieur Samy MBELU" },
   "simon": { nom: "Cher Monsieur Simon Pierre KABUAYI" },
   "richardkabasele": { nom: "Cher Monsieur Richard KABASELE" },
+  "ignace": { nom: "Cher Monsieur Ignace NTAMBWE" },
   "alphonse": { nom: "Frère Alphonse et beauf" },
   "violette": { nom: "Chère Madame Violette" },
   "gaylord": { nom: "Cher Monsieur Gaylord MUSANGU" },
