@@ -99,7 +99,7 @@ const invites = {
   "plamedie": { nom: "Mrs Plamedie " },
   "jackel": { nom: "Mrs Jackel et Davina" },
   "corneille": { nom: "Cher Monsieur Coreneille TSHIBAMBA" },
-  "gustave": { nom: "Cher Monsieur Gustave" },
+  "simeon": { nom: "Cher Monsieur Siméon NYEMBO"},
   "tantinevero": { nom: "Cher couple verro NTUMBA" }
 };
 
