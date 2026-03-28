@@ -95,7 +95,7 @@ const invites = {
   "eldad": { nom: "Cher Monsieur Eldad NGAMOSOLO" },
   "richard": { nom: "Cher Couple Richard KAPEND" },
   "eddy": { nom: "Cher Monsieur Eddy NGANDJAMB" },
-  "martial": { nom: "Cher Monsieur Martial MALANDA" },
+  "joachim": { nom: "Cher Monsieur Joachim" },
   "jemima": { nom: "Cher Mr Justin et Mme Jemima" },
   "plamedie": { nom: "Mrs Plamedie " },
   "jackel": { nom: "Mrs Jackel et Davina" },
