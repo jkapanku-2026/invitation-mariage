@@ -63,7 +63,7 @@ const invites = {
   "grace": { nom: "Chère couple Emmanuel KENOMBE" },
   "chadrack": { nom: "Cher Monsieur Chadrack IBANDA" },
   "reagan": { nom: "Cher Monsieur Reagan MPANGU" },
-  "aris": { nom: "Cher Monsieur Aristote NZALE" },
+  "alvine": { nom: "Cher Monsieur Alvine MABIKA" },
   "dieudonne": { nom: "Cher Monsieur Dieudonné ELAMENJI" },
   "johnny": { nom: "Cher Monsieur Johnny KABUAMBA" },
   "andré": { nom: "Cher Monsieur André BADIBANGA" },
