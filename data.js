@@ -49,7 +49,7 @@ const invites = {
   "thomas": { nom: "Cher Monsieur Thomas IMWINE" },
   "freddy2": { nom: "Monsieur Freddy TSHINDINATSHI" },
   "david": { nom: "Cher couple David BADESIRE"},
-  "jonathanbongo": { nom: "Cher Monsieur Jonathan BONGO" },
+  "jonathanbongo": { nom: "Cher Couple Jonathan BONGO" },
   "nova": { nom: "Cher Monsieur Nova KWAYA" },
   "bamex": { nom: "Cher Monsieur Alexandre Bamex" },
   "olivia": { nom: "Cher couple Olivia TAKILIANI" },
