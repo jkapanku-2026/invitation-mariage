@@ -101,8 +101,10 @@ const invites = {
   "jemima": { nom: "Cher Mr Justin et Mme Jemima" },
   "aristote": { nom: "Cher Mr Aristote NZALE" },
   "jacob": { nom: "Cher Mr Jacob MOMEM" },
-  "plamedie": { nom: "Mrs Plamedie " },
-  "jackel": { nom: "Mrs Jackel et Davina" },
+  "plamedie": { nom: "Madame Plamedie KASHALA " },
+  "davina": { nom: "Madame Davina KASHALA" },
+  "jackel": { nom: "Madame Jackel KASHALA" },
+  "damaris": { nom: "Madame Damaris KASHALA" },
   "corneille": { nom: "Cher Monsieur Coreneille TSHIBAMBA" },
   "siméon": { nom: "Cher Monsieur Siméon NYEMBO"},
 
