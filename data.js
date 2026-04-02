@@ -105,7 +105,7 @@ const invites = {
   "siméon": { nom: "Cher Monsieur Siméon NYEMBO"},
   "tantinevero": { nom: "Cher couple verro NTUMBA" }
 
-  //INVITES MILCA
+    
   "henockkabuya": { nom: "Cher couple Henock KABUYA" }
   "bokangaphilippe": { nom: "Cher couple Philippe BOKANGA" }
   "augustinmilambo": { nom: "Cher couple Augustin MILAMBO" }
