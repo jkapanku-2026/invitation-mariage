@@ -34,7 +34,7 @@ const invites = {
   "jules": { nom: "Cher couple Jules MUTSHIBELE" },
   "prisca": { nom: "Chère Madame Prisca EKWE" },
   "sifa": { nom: "Cher couple Christelle SIFA" },
-  "anny": { nom: "Mrs Annie BAMBIE" },
+  "anny": { nom: "Mrs Annie BAMBI" },
   "therese": { nom: "Mrs Thera MISE" },
   "timothe": { nom: "Mr Timothé" },
   "freddy": { nom: "Cher couple Freddy KALALA" },
