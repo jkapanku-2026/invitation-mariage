@@ -83,6 +83,7 @@ const invites = {
   "richardkabasele": { nom: "Cher Monsieur Richard KABASELE" },
   "ignace": { nom: "Cher Monsieur Ignace NTAMBWE" },
   "gaspakad": { nom: "Cher Monsieur Gaston Papy KADIAMBI" },
+  "rachel": { nom: "Chère Madame Rachel NDOMBA" },  
   "daniel": { nom: "Cher Monsieur Daniel NTAMBWE" },
   "alphonse": { nom: "Frère Alphonse et beauf" },
   "violette": { nom: "Chère Madame Violette" },
