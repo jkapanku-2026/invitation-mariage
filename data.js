@@ -104,6 +104,12 @@ const invites = {
   "corneille": { nom: "Cher Monsieur Coreneille TSHIBAMBA" },
   "siméon": { nom: "Cher Monsieur Siméon NYEMBO"},
   "tantinevero": { nom: "Cher couple verro NTUMBA" }
+
+  //INVITES MILCA
+  "henockkabuya": { nom: "Cher couple Henock KABUYA" }
+  "bokangaphilippe": { nom: "Cher couple Philippe BOKANGA" }
+  "augustinmilambo": { nom: "Cher couple Augustin MILAMBO" }
+  "marthetshibola": { nom: "Chère Madame Marthe TSHIBOLA" }
 };
 
 // 🔑 INVITÉ COURANT & ADMIN
