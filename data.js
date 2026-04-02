@@ -114,6 +114,7 @@ const invites = {
   "meek": { nom: "Cher couple Meek Patrick" },
   "irene": { nom: "Chères Florence et Irène" },
   "felicien": { nom: "Cher Mr Félicien" },
+  "excellent": { nom: "Cher Couple Excellent KANKU" },
   
   
 
