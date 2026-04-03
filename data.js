@@ -108,9 +108,11 @@ const invites = {
   "damaris": { nom: "Madame Damaris KASHALA" },
   "corneille": { nom: "Cher Monsieur Corneille TSHIBAMBA" },
   "siméon": { nom: "Cher Monsieur Siméon NYEMBO"},
-  "alida": { nom: "Chère Madame Alida"},
-
   
+  //INVITES VIEUX
+  "benj": { nom: "Cher Monsieur Benj wa Kuetu"},
+
+  //INVITES MILCA
   "henockkabuya": { nom: "Cher couple Henock KABUYA" },
   "bokangaphilippe": { nom: "Cher couple Philippe BOKANGA" },
   "augustinmilambo": { nom: "Cher couple Augustin MILAMBO" },
