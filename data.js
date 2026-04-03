@@ -111,7 +111,7 @@ const invites = {
   
   //INVITES VIEUX
   "benj": { nom: "Cher Couple Benj wa Kuetu"},
-  "sadam": { nom: "Cher Couple SADAM"},
+  "couplesadam": { nom: "Cher Couple SADAM"},
 
   //INVITES MILCA
   "henockkabuya": { nom: "Cher couple Henock KABUYA" },
