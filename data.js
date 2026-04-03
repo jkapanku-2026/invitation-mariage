@@ -14,7 +14,7 @@ const db = firebase.database();
 
 // 🔑 INVITES
 const invites = {
-  "jeremie": { nom: "Cher couple Honorable Jérémie Foudratch" },
+  "tresor": { nom: "Cher Monsieur Trésor BUABUA" },
   "papajean": { nom: "Cher Couple Jean Kabuya" },
   "papapierre": { nom: "Cher couple Pierre TSHILUMBA" },
   "alidor": { nom: "Cher couple Aimé Alidor" },
