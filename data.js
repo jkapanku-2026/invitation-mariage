@@ -29,6 +29,7 @@ const invites = {
   "ferly": { nom: "Cher Mr Ferly NKUNA" },
   "serge": { nom: "Cher couple Honorable Serge Beya" },
   "maxence": { nom: "Cher Couple Maxence MANDI" },
+  "reaganyoka": { nom: "Cher Couple Reagan YOKA" },
   "papastephane": { nom: "Cher couple Stéphane TSHIBINKUFUA" },
   "jules": { nom: "Cher couple Jules MUTSHIBELE" },
   "prisca": { nom: "Chère Madame Prisca EKWE" },
