@@ -78,6 +78,7 @@ const invites = {
   "lisa": { nom: "Chère Lisa MUBASAO" },
   "merline": { nom: "Chère Da Merline et Promedie" },
   "christian": { nom: "Cher Monsieur Christian BEYA " },
+  "iness": { nom: "Cher Monsieur Iness EPENDE " },
   "samy": { nom: "Cher Monsieur Samy MBELU" },
   "simon": { nom: "Cher Monsieur Simon Pierre KABUAYI" },
   "richardkabasele": { nom: "Cher Monsieur Richard KABASELE" },
