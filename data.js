@@ -20,7 +20,6 @@ const invites = {
   "alidor": { nom: "Cher couple Aimé Alidor" },
   "manager": { nom: "Cher couple Dieudonné MUAMB" },
   "chilton": { nom: "Cher couple Chilton DIASONAMA" },
-  "jacob": { nom: "Cher Monsieur Jacob MOMEM" },
   "yves": { nom: "Cher couple Yves KAYEMBE" },
   "africa": { nom: "Cher couple Africa TSATSA" },
   "vinny": { nom: "Cher Monsieur Vinny TAWABA" },
@@ -105,7 +104,7 @@ const invites = {
   "davina": { nom: "Madame Davina KASHALA" },
   "jackel": { nom: "Madame Jackel KASHALA" },
   "damaris": { nom: "Madame Damaris KASHALA" },
-  "corneille": { nom: "Cher Monsieur Coreneille TSHIBAMBA" },
+  "corneille": { nom: "Cher Monsieur Corneille TSHIBAMBA" },
   "siméon": { nom: "Cher Monsieur Siméon NYEMBO"},
 
   
