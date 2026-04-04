@@ -113,6 +113,10 @@ const invites = {
   "benj": { nom: "Cher Couple Benj wa Kuetu"},
   "couplesadam": { nom: "Cher Couple SADAM"},
 
+
+  //INVITES FR DONAT
+  "jeremie": { nom: "Cher Couple Jérémie Foudratch"},
+  
   //INVITES MILCA
   "henockkabuya": { nom: "Cher couple Henock KABUYA" },
   "bokangaphilippe": { nom: "Cher couple Philippe BOKANGA" },
