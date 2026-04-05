@@ -69,6 +69,8 @@ const invites = {
   "johnny": { nom: "Cher Monsieur Johnny KABUAMBA" },
   "andré": { nom: "Cher Monsieur André BADIBANGA" },
   "valery": { nom: "Cher Monsieur Valery WALELU" },
+  "sardo": { nom: "Cher Monsieur Sardo BAKALA" },
+  "jeanpierre": { nom: "Cher Monsieur Jean Pierre MUKOLO" },
   "oscar": { nom: "Cher Monsieur Oscar TSHIKWAYA" },
   "sam": { nom: "Cher Monsieur SAM" },
   "christ": { nom: "Cher Monsieur Christian MUHINDO" },
