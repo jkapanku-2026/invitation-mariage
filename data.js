@@ -123,7 +123,7 @@ const invites = {
   "coupleben": { nom: "Cher Couple Ben MUJANGI"},
   "coupletheo": { nom: "Cher Couple Théo"},
   "jc": { nom: "Cher Bien aimé JC"},
-  "freddy": { nom: "Cher Couple Freddy NTUMBA"},
+  "couplefreddy": { nom: "Cher Couple Freddy NTUMBA"},
   "couplejunior": { nom: "Cher Couple Junior KABEDI"},
   
   //INVITES MILCA
