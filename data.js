@@ -29,6 +29,7 @@ const invites = {
   "sylvaink": { nom: "Cher Monsieur Sylvain KALELE" },
   "ismael": { nom: "Cher Monsieur Ismael TSHIBANDA" },
   "ferly": { nom: "Cher Mr Ferly NKUNA" },
+  "vincent": { nom: "Cher Mr Vincent MITANGU" },
   "serge": { nom: "Cher couple Honorable Serge Beya" },
   "maxence": { nom: "Cher Couple Maxence MANDI" },
   "reaganyoka": { nom: "Cher Couple Reagan YOKA" },
