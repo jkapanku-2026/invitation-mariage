@@ -17,6 +17,7 @@ const invites = {
   "tresor": { nom: "Cher Monsieur Trésor BUABUA" },
   "papajean": { nom: "Cher Couple Jean Kabuya" },
   "papapierre": { nom: "Cher couple Pierre TSHILUMBA" },
+  "papaose": { nom: "Cher couple Osé NKONGOLO"},
   "alidor": { nom: "Cher couple Aimé Alidor" },
   "manager": { nom: "Cher couple Dieudonné MUAMB" },
   "chilton": { nom: "Cher couple Chilton DIASONAMA" },
