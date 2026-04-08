@@ -119,6 +119,7 @@ const invites = {
   "couplesadam": { nom: "Cher Couple SADAM"},
   "gentil": { nom: "Cher Couple Gentil KABASELE"},
   "fabien": { nom: "Cher Couple Fabien NGALAMULUME"},
+  "bernard": { nom: "Cher Couple Bernard MBAYA"},
 
   //INVITES FR DONAT
   "jeremie": { nom: "Cher Couple Jérémie Foudratch"},
