@@ -27,6 +27,7 @@ const invites = {
   "christianbukasa": { nom: "Cher Monsieur Christian BUKASA" },
   "bienvenumasudi": { nom: "Cher Monsieur Bienvenu MASUDI"},
   "sylvaink": { nom: "Cher Monsieur Sylvain KALELE" },
+  "antoine": { nom: "Cher Frère Antoine" },
   "ismael": { nom: "Cher Monsieur Ismael TSHIBANDA" },
   "ferly": { nom: "Cher Mr Ferly NKUNA" },
   "vincent": { nom: "Cher Mr Vincent MITANGU" },
