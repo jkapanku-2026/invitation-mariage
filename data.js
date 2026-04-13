@@ -155,7 +155,7 @@ const invites = {
   "mamanmarthe": { nom: "Chère maman Marthe" },
   "maguy": { nom: "Chère maman Maguy" },
   "Emmanuel": { nom: "Cher Emmanuel" },
-  
+  "couplepatrice": { nom: "Cher Couple papa Patrice" },
 
   "tantinevero": { nom: "Cher couple verro NTUMBA" }
 
