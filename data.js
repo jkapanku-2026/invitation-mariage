@@ -147,6 +147,14 @@ const invites = {
   "coupledieudonne": { nom: "Cher Couple Dieudonné BOPE" },
   "coupleeric": { nom: "Cher Couple Eric" },
   "mamanornella": { nom: "Chère maman Ornella" },
+  "coupleprince": { nom: "Cher Couple Prince" },
+  "coupleroland": { nom: "Cher Couple Roland" },
+  "albert": { nom: "Cher papa Albert" },
+  "stany": { nom: "Cher papa Stany" },
+  "titi": { nom: "Chère maman TITI" },
+  "mamanmarthe": { nom: "Chère maman Marthe" },
+  "maguy": { nom: "Chère maman Maguy" },
+  "Emmanuel": { nom: "Cher Emmanuel" },
   
 
   "tantinevero": { nom: "Cher couple verro NTUMBA" }
