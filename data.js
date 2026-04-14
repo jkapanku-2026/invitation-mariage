@@ -158,7 +158,7 @@ const invites = {
   "maguy": { nom: "Chère maman Maguy" },
   "Emmanuel": { nom: "Cher Emmanuel" },
   "couplepatrice": { nom: "Cher Couple papa Patrice" },
-  "shakena": { nom: "Chers papa BOLELA, Shakena et papa lukusa },
+  "shakena": { nom: "Chers papa BOLELA, Shakena et papa lukusa" },
   "albertkapuku": { nom: "Cher Albert KAPUKU" },
 
   "tantinevero": { nom: "Cher couple verro NTUMBA" }
