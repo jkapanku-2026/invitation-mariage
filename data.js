@@ -94,6 +94,7 @@ const invites = {
   "rachel": { nom: "Chère Madame Rachel NDOMBA" },  
   "daniel": { nom: "Cher Monsieur Daniel NTAMBWE" },
   "alphonse": { nom: "Frère Alphonse et beauf" },
+  "alfred": { nom: "Frère Alfred" },
   "violette": { nom: "Chère Madame Violette" },
   "gaylord": { nom: "Cher Monsieur Gaylord MUSANGU" },
   "magloire": { nom: "Chère madame Ma Gloire NSASI" },
