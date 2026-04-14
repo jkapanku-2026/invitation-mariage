@@ -99,6 +99,7 @@ const invites = {
   "gaylord": { nom: "Cher Monsieur Gaylord MUSANGU" },
   "magloire": { nom: "Chère madame Ma Gloire NSASI" },
   "ornella": { nom: "Chère Madame Ornella NTUMBA" },
+  "papy": { nom: "Cher Monsieur Papy" },
   "jeanisse": { nom: "Chère Madame Jeanisse MASEVO" },
   "eugene": { nom: "Cher Monsieur Eugène BUNGISA" },
   "dieudo": { nom: "Cher Monsieur Dieudonné BADIBANG" },
