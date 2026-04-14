@@ -108,6 +108,7 @@ const invites = {
   "eldad": { nom: "Cher Monsieur Eldad NGAMOSOLO" },
   "richard": { nom: "Cher Couple Richard KAPEND" },
   "eddy": { nom: "Cher Monsieur Eddy NGANDJAMB" },
+  "victoria": { nom: "Chère Madame Victoria TSHITA" },
   "joachim": { nom: "Cher Monsieur Joachim" },
   "jemima": { nom: "Cher Mr Justin et Mme Jemima" },
   "aristote": { nom: "Cher Mr Aristote NZALE" },
@@ -159,6 +160,7 @@ const invites = {
   "Emmanuel": { nom: "Cher Emmanuel" },
   "couplepatrice": { nom: "Cher Couple papa Patrice" },
   "shakena": { nom: "Chers papa BOLELA, Shakena et papa lukusa" },
+  "louism": { nom: "Cher couple Louis MULUMBA" },
   "albertkapuku": { nom: "Cher Albert KAPUKU" },
 
   "tantinevero": { nom: "Cher couple verro NTUMBA" }
