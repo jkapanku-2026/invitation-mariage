@@ -143,6 +143,7 @@ const invites = {
   "bokangaphilippe": { nom: "Cher couple Philippe BOKANGA" },
   "augustinmilambo": { nom: "Cher couple Augustin MILAMBO" },
   "marthetshibola": { nom: "Chère Madame Marthe TSHIBOLA" },
+  "gedeon": { nom: "Cher Monsieur Gédéon KABANGU" },
   "meek": { nom: "Cher couple Meek Patrick" },
   "irene": { nom: "Chères Florence et Irène" },
   "felicien": { nom: "Cher Mr Félicien" },
